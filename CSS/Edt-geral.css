@@ -1,0 +1,82 @@
+header{
+    width:100%;
+    height: 80px;
+    background: var(--bg-azul-escuro);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    font-family: Roboto;
+    font-size: 22px;
+    color: var(--cl-wh);
+}
+
+#titulo{
+    margin: 20px 0;
+    font-family:Roboto;
+    font-size: 24px;
+    text-align: center;
+}
+
+.form-dados{
+    margin: 40px auto;
+    max-width: 900px;
+    background:var(--bg-azul-escuro);
+    box-shadow: 1px 1px 2px 1px #70707035;
+    padding: 20px;
+}
+
+.form-dados .dados{
+    margin: 25px 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+}
+
+.form-dados .dados > div{
+    background: #fff;
+    border-radius: 2px;
+    height: 44px;
+    padding: 0 6px;
+
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+}
+
+.dados div label{
+    font-family:var(--font-f-o) !important;
+    font-weight: bold;
+}
+
+.dados > div input, select{
+    width: 100%;
+    font-size: 16px;
+    font-family: poppins;
+    text-transform: capitalize;
+}
+
+.form-dados input[type='submit']{
+    width: 300px;
+    height: 44px;
+    background:#53c553;
+    border-radius: 4px;
+
+    font-size: 17px;
+    font-weight:500;
+    font-family: var(--font-f-o);
+    color: var(--cl-wh);
+}
+
+input[type="submit"]:hover{
+    background:#4ee24e;
+    transition: .3s ease-in-out;
+    letter-spacing: 1px;
+}
+
+textarea{
+    background: #fff;
+}

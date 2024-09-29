@@ -1,0 +1,43 @@
+select aluno.nome, aluno.sobrenome, curso.nome, professor.nome FROM
+aluno, curso, professor where curso.id_curso = aluno.id_curso AND curso.nome = professor.especialidade AND aluno.id_aluno = 1
+
+
+
+
+
+
+
+  <!-- Usuario ------->
+                            <article>
+                                <!--- Add Novo Usuario---->
+                                <section>
+                                   <div class="cont-usuario">
+                                        <div id="sub-usuario">
+                                           
+                                             <span>
+                                                  <h3>Usúario</h3>
+                                                  <i class="fas fa-times"></i>
+                                             </span>
+
+                                             <form action="" method="post">
+
+                                                    <div>
+                                                        <i class="fas fa-user"></i>
+                                                        <input type="text" name="nome" placeholder="Nome" required>
+                                                    </div>
+
+                                                    <div>
+                                                        <i class="fas fa-lock"></i>
+                                                        <input type="text" name="senha" placeholder="senha" required>
+                                                    </div>    
+
+                                                      <div>
+                                                        <input type="submit" name="senha" value="Registrar">
+                                                     </di>
+
+                                             </form>
+                                        </div>
+                                   </div>
+                                </section>      
+
+                            </article>

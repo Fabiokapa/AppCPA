@@ -1,0 +1,72 @@
+header{
+    width:100%;
+    height: 80px;
+    background: var(--bg-azul-escuro);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    font-family: Roboto;
+    font-size: 22px;
+    color: var(--cl-wh);
+}
+
+#btn-pagar{
+    font-family: var(--font-f-o);
+    background:var( --bg-verde);
+    border-radius: 4px;
+    padding: 8px;
+    color: var(--cl-wh);
+}
+
+#descricao{
+    padding: 20px;
+    text-align: center;
+    font-family: var(--font-f-o);
+    font-size: 18px;
+}
+
+#descricao b{
+    text-transform: capitalize;
+}
+
+.container-pagamento{
+    margin: 30px auto;
+    width: 1000px;
+    background:var(--bg-sinza);
+    border-radius: 4px;
+    font-family: var( --font-f-o);
+}
+
+.container-pagamento table{
+    width: 100%;
+    text-align: left;
+}
+
+.container-pagamento table
+thead{
+    padding: 20px;
+}
+.container-pagamento table
+thead th{
+    padding: 8px;
+    background:var(--bg-azul-escuro);
+    border-radius: 4px;
+    color:var(--cl-wh);
+    font-weight:500;
+    font-size: 18px;
+}
+.container-pagamento table
+tbody{
+    padding: 20px;
+}
+.container-pagamento table
+tbody td{
+    padding: 4px;
+    color: var(--cl-wh);
+    font-size: 17px;
+    font-weight: 400;
+}

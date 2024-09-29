@@ -1,0 +1,95 @@
+body{
+    background: silver;
+    font-family: var(--font-f-p);
+}
+
+.sair{
+    font-family: var(--font-f-p);
+}
+.sair a{
+    background: var( --bg-azul-escuro);
+    border-radius: 4px;
+    color: var(--cl-wh);
+    padding: 8px 30px;
+    font-size: 15px;
+}
+
+.container-recibo{
+    margin: 0 auto;
+    width: 600px;
+    border: 2px solid #c0c0c0;
+    height: 95vh;
+    background: #fff;
+}
+
+header{
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+header figure{
+    width: 80px;
+    margin: 0 0 0 30px;
+}
+
+header .d-aluno h4{
+    margin: 0  40px 0  0;
+    font-size: 17px;
+
+    font-weight:500;
+    text-align: center;
+}
+
+.container{
+    margin: 20px auto;
+    width: 540px;
+    height: 450px;
+}
+
+.container-d-alunos{
+    font-family: var(--font-f-o);
+}
+
+.container-d-alunos > span{
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-d-alunos div{
+    margin: 4px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+}
+
+.container-d-alunos span:last-child{
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-d-alunos b{
+    font-weight: 500;
+}
+
+.ddl-alunos{
+    text-align: center;
+    font-family:var(--font-f-o);
+}
+
+.rodape b{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rodape small{
+    font-weight: 200;
+    text-transform:capitalize;
+}
+
+

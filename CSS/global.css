@@ -1,0 +1,89 @@
+:root{
+    --bg-azul-escuro:#153E58;
+    --bg-azul:#64B1FC;
+    --bg-sinza:#A8A8A8;
+    --bg-verde:#53c579;
+    --cl-bk:#000;
+    --cl-wh:#fff;
+
+    --font-f-r:Roboto;
+    --font-f-p:poppins;
+    --font-f-o:Open sans;
+
+    --font-titulo:30px;
+    --font-p:17px;
+    --font-sub:28px;
+
+    --color-icon:#E3812D;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+h1,h2,h3,h4,h5,figure{
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+}
+
+a, ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+/* font icon*/
+i{
+    font-size: 22px;
+}
+.fechar{
+    width: 29px;
+}
+
+/* Geral input submit*/
+input[type="submit"], input, select, textarea{
+    border: none;
+    background: none;
+    outline: none;
+}
+input[type="email"]{
+    text-transform: lowercase !important;
+}
+
+/*Modal Usuario*/
+.cont-usuario{
+    display: none;
+}
+
+/* Modal Add Novo Desabilitado*/
+.add-novo{
+    display: none;
+}
+/* Habilitar modal AB DSB*/
+.visivel{
+    display: block;
+}
+
+
+/****************************/
+/* Conteiners AB DSB*/
+.conteiner-alunos{
+    display: none;
+}
+
+/* Habilitar modal AB DSB*/
+.ativar-modal{
+    display: block;
+}
+
+/* Retira  modal card */
+.dsprc{
+    display: none;
+}

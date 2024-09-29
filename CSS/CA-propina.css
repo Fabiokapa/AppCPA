@@ -1,0 +1,134 @@
+header{
+    width:100%;
+    height: 80px;
+    background: var(--bg-azul-escuro);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    font-family: Roboto;
+    font-size: 22px;
+    color: var(--cl-wh);
+}
+
+.container-pagamento{
+    width: 100%;
+    height: auto;
+    font-family: var(--font-f-r);
+}
+
+.container-pagamento
+.titulo{
+    width:100%;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background:#ffff0040;
+    padding: 14px;
+}
+.titulo h3{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.titulo i{
+    color: #03b580;
+    font-size: 25px;
+}
+
+.titulo select{
+    border:2px solid #575757;
+    border-radius: 4px;
+    padding: 8px;
+    font-family: var(--font-f-r);
+    font-size: 15px;
+}
+.titulo select option{
+    font-size: 15px;
+}
+
+.container-pagamento
+.dado-pessoal{
+    margin: 10px auto;
+    width: 1200px;
+
+    display: flex;
+    align-items:center;
+    justify-content: end;
+    gap: 0 4px;
+
+    text-transform:capitalize;
+    font-size: 22px;
+}
+
+.dado-pessoal i{
+    background: #03b580;
+    color: #fff;
+    padding: 9px;
+    clip-path: circle();
+}
+
+.sub-mes{
+    width:1200px;
+    margin: 20px auto;
+    visibility: hidden;
+}
+.sub-mes
+.item-mes{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px  30px;
+}
+
+.sub-mes
+.item-mes div{
+    display: flex;
+    flex-direction: column;
+    background:var(--bg-azul-escuro);
+    border-radius: 4px;
+
+    font-size: 18px;
+    color:var(--cl-wh);
+    padding: 15px  0 0 0;
+}
+
+.sub-mes
+form div label{
+    padding: 2px;
+}
+
+.sub-mes
+form div select{
+    background: #575757;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 17px;
+    font-family: var(--font-f-o);
+    color: var(--cl-wh);
+}
+
+#pagar{
+    display: flex;
+    align-items: center;
+    gap: 0 4px;
+
+    margin: 10px 0;
+    width: 380px;
+    background: #03b580;
+    border-radius: 2px;
+}
+
+#pagar input{
+    width: 100%;
+    height: 45px;
+
+    font-family: var(--font-f-r);
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+}
